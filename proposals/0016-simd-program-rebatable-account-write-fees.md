@@ -83,6 +83,10 @@ at the right time. This will also help dapp incentivize good behavior from the
 penalties collected for bad behavior. Better functioning of dapps will also
 increase profits by MEV or validator communities.
 
+This is why app chains are incredibly interesting because stake owners are dapp
+developers. So they can easily circulate the tokens around and create proper
+incentive loops.
+
 ## Alternatives Considered
 
 * Having a seperate app chain for defi dapps
@@ -90,8 +94,8 @@ increase profits by MEV or validator communities.
 Pros: Dapps can implement their own incentive loop and have fine control over
 accounts.
 
-Cons: A solana fork has to be developed and maintain, bidges have to be built.
-Not in the best interest for solana as a community.
+Cons: A solana fork has to be developed and maintain, bridges have to be built.
+Hard to decentralize.
 
 * Having a fixed write lock fee and a read lock fee.
 
